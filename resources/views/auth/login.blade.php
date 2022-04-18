@@ -29,11 +29,11 @@
                    <a href="https://www.instagram.com/blaze.boot/" target="_blank"><img src="{{ asset('assets/img/instagram.svg') }}" alt=""></a>
                 </div>
                 <div>
-                   <a href="https://api.whatsapp.com/send?phone=5521965711435&text=Quero%20comprar%20o%20boot" target="_blank"> <img src="{{ asset('assets/img/whatsapp.svg') }}" alt=""></a>
+                   <a href="https://api.whatsapp.com/send?phone=5521980299589&text=Quero%20comprar%20o%20boot" target="_blank"> <img src="{{ asset('assets/img/whatsapp.svg') }}" alt=""></a>
                 </div>
             </div>
             <div class="text-center my-3 mb-3 pb-5">
-                <a href="https://api.whatsapp.com/send?phone=5521965711435&text=Quero%20comprar%20o%20boot" target="_blank"> <button
+                <a href="https://api.whatsapp.com/send?phone=5521980299589&text=Quero%20comprar%20o%20boot" target="_blank"> <button
                         type="button" class="btn-green">QUERO COMPRAR O BOT AGORA!</button></a>
             </div>
         </div>
