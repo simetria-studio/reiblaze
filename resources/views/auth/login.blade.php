@@ -26,7 +26,7 @@
             </div>
             <div class="icons-grid">
                 <div>
-                   <a href="https://www.instagram.com/blaze.boot/" target="_blank"><img src="{{ asset('assets/img/instagram.svg') }}" alt=""></a>
+                   <a href="https://www.instagram.com/rei.da.blaze021/" target="_blank"><img src="{{ asset('assets/img/instagram.svg') }}" alt=""></a>
                 </div>
                 <div>
                    <a href="https://api.whatsapp.com/send?phone=5521980299589&text=Quero%20comprar%20o%20boot" target="_blank"> <img src="{{ asset('assets/img/whatsapp.svg') }}" alt=""></a>
