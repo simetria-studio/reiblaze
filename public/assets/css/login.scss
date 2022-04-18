@@ -14,9 +14,9 @@ body {
         width: 250px;
     }
 }
-
+    
 .btn-index {
-    background-color: #f30435;
+    background-color: #600303;
     padding: 1em 5em;
     color: #fff;
     border: none;
@@ -31,14 +31,13 @@ body {
 }
 
 .login-main {
-    background-color: #f30435;
+    background-color: #F12C4C;
     display: grid;
     justify-content: center;
     align-content: center;
     margin: 0 10em;
     border-radius: 10px;
-    background-image: radial-gradient(at 47% 33%, hsl(258.69, 97%, 12%) 0, transparent 59%),
-        radial-gradient(at 82% 65%, hsl(258.69, 97%, 12%) 0, transparent 55%);
+
 
     h3 {
         color: #fff;
