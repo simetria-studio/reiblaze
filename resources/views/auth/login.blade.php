@@ -7,7 +7,7 @@
         </div>
         <div class="login-main">
             <div class="text-center">
-                <h3>ENTRAR N0 BLAZE BOOT</h3>
+                <h3>ENTRAR N0 REI DA BLAZE</h3>
             </div>
             <div>
                 <form action="{{ route('login') }}" method="post">
