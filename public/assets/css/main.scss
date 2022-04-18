@@ -1,0 +1,216 @@
+body {
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+
+.menu {
+    background-color: #212529;
+}
+.logo-waltermark {
+    width: 80px;
+    margin: 0 auto;
+    img {
+        margin-top: 8px;
+        width: 100%;
+        filter: opacity(50%);
+    }
+}
+
+.add-user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5em;
+    gap: 25px;
+}
+.form {
+    input {
+        margin: 1em 0;
+    }
+    h4 {
+        color: #fff;
+    }
+}
+.head {
+    background: rgba(20, 17, 17, 0.88);
+    width: 100%;
+    .head-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 1em 0;
+    }
+    .img-logo {
+        width: 75px;
+        img {
+            width: 100%;
+        }
+    }
+    .font {
+        h2 {
+            color: #f40101;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 32px;
+        }
+    }
+}
+.white-stripe {
+    width: 100;
+    height: 5px;
+    background-color: #fff;
+}
+.main {
+    background: #0f1923;
+    height: 100vh;
+    overflow: hidden;
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2em 10em;
+        gap: 20px;
+        .block {
+            background: #1a242d;
+            border-radius: 10px;
+            width: 100%;
+            padding: 1em;
+            h4 {
+                color: #fff;
+                font-size: 20px;
+            }
+            h5 {
+                color: #fff;
+                font-size: 14px;
+            }
+            .text-success {
+                color: #00a61b !important;
+            }
+        }
+        .main-chart {
+            display: grid;
+            width: 100%;
+            justify-content: center;
+        }
+        .div-chart {
+            width: 180px;
+            height: 180px;
+        }
+    }
+}
+.block-grid {
+    color: #fff;
+    padding: 1em;
+    display: grid;
+    gap: 30px;
+}
+.red {
+    background: #ff0000;
+    border-radius: 10px;
+    width: 49px;
+    height: 40px;
+}
+.white {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 49px;
+    height: 40px;
+}
+.black {
+    background: #000000;
+    border-radius: 10px;
+    width: 49px;
+    height: 40px;
+}
+.text-green {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00a61b;
+}
+.text-red {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ff0000;
+}
+.result {
+    background: #1a242d;
+    padding: 0.5em;
+    margin: 0 10em;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    flex-grow: 1;
+    overflow-y: hidden;
+}
+.entry {
+    display: flex;
+    margin: 0 5px;
+    -webkit-animation: roulette-previous-in 1s ease-in-out forwards;
+    animation: roulette-previous-in 1s ease-in-out forwards;
+
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    .roulette-tile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .sm-box {
+            height: 40px;
+            width: 40px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .number {
+            font-size: 12px;
+            border: 2px solid #fff;
+            color: #fff;
+            // padding: 5px;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            padding: 5px;
+            text-align: center;
+        }
+    }
+    .black {
+        background-color: #000000;
+    }
+    .red {
+        background-color: rgb(255, 0, 0);
+    }
+    .white {
+        background-color: #fff;
+        .number {
+            color: #000000;
+            border: 2px solid #000;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: "Roboto", sans-serif;
+        overflow: scroll !important;
+    }
+    .main{
+        height: auto;
+    }
+    .main-grid{
+        grid-template-columns: 1fr !important;
+        padding: 1em !important;
+    }
+    .result{
+        margin: 0 1em !important;
+    }
+
+    .logo-waltermark{
+        margin: 0 auto !important;
+        margin-top: 30px !important;
+    }
+    .head-grid{
+        margin: 0 1em !important;
+    }
+}
