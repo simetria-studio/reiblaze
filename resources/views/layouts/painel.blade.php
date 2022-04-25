@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>BLAZE BOOT</title>
+    <title>REI DA BLAZE</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -22,14 +22,14 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/main.min.css') }}">
-    <title>BLAZE BOOT</title>
+
 </head>
 
 <body>
     <div class="head">
         <div class="head-grid">
             <div class="font">
-                <h2>BLAZE BOOT</h2>
+                <h2>REI DA BLAZE</h2>
             </div>
             <div>
                 <div class="img-logo">
