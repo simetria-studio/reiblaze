@@ -116,8 +116,8 @@
             </div>
         @endif
         <div class="instagram text-center mt-1 text-light">
-            <a href="https://www.instagram.com/rei.da.blaze021/" target="_blank"> <img width="30" src="{{ asset('assets/img/instagram.svg') }}" alt=""></a>
-            <h4 class="my-2">@rei.da.braze021</h4>
+            <a href="https://www.instagram.com/rei.da.blaze/" target="_blank"> <img width="30" src="{{ asset('assets/img/instagram.svg') }}" alt=""></a>
+            <h4 class="my-2">@rei.da.blaze</h4>
         </div>
         <div class="logo-waltermark">
             <div>
